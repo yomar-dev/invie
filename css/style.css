@@ -1,5 +1,6 @@
 body{
 	font-family: 'Allerta', sans-serif;
+	margin: 0;
 }
 
 figure img{
@@ -14,18 +15,24 @@ article img{
 .titulo{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
 }
 
 .title-a{
 	font-size: 24px;
+	margin-top: 0;
 }
 
 .title-b{
 	font-size: 50px;
+	margin-bottom: 20px;
 }
 
 .guitarras{
 	color: #1f313c;
+	width: 800px;
+	margin: auto;
 }
 
 .guitarras h2{
@@ -36,6 +43,13 @@ article img{
 .portada{
 	background-image: url('../images/background.png');
 	color: #fff;
+	padding: 20px;
+	width: 800px;
+	margin: auto;
+}
+
+.portada button{
+	margin-bottom: 70px;
 }
 
 .menu{
@@ -45,8 +59,14 @@ article img{
 
 .menu li{
 	display: inline-block;
+	margin-left: 30px;
 }
 
 .logo{
 	display: inline-block;
+}
+
+.header{	
+	width: 800px;
+	margin: auto;
 }
