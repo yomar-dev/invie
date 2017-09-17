@@ -31,8 +31,6 @@ article img{
 
 .guitarras{
 	color: #1f313c;
-	width: 800px;
-	margin: auto;
 }
 
 .guitarras h2{
@@ -44,8 +42,6 @@ article img{
 	background-image: url('../images/background.png');
 	color: #fff;
 	padding: 20px;
-	width: 800px;
-	margin: auto;
 }
 
 .portada button{
@@ -66,7 +62,7 @@ article img{
 	display: inline-block;
 }
 
-.header{	
+.contenedor{	
 	width: 800px;
 	margin: auto;
 }
