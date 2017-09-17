@@ -1,3 +1,7 @@
+body{
+	font-family: 'Allerta', sans-serif;
+}
+
 figure img{
 	width: 186px;
 	height: 60px;
@@ -8,6 +12,7 @@ article img{
 }
 
 .titulo{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
 }
 
@@ -24,6 +29,7 @@ article img{
 }
 
 .guitarras h2{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 }
 
