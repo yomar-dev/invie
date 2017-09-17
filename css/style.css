@@ -3,6 +3,14 @@ body{
 	margin: 0;
 }
 
+button{
+	border-radius: 5px;
+	border: none;
+	background: #fd324e;
+	color: #fff;
+	padding: 7px;
+}
+
 figure img{
 	width: 186px;
 	height: 60px;
@@ -73,6 +81,7 @@ article img{
 	margin: 10px;
 	padding: 10px;
 	border: 1px solid #1f313c;
+	border-radius: 5px;
 }
 
 .guitarra ol{
