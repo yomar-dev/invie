@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 
-button{
+.button{
 	border-radius: 5px;
 	border: none;
 	background: #fd324e;
@@ -116,6 +116,13 @@ article img{
 	background: #273b47;
 }
 
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
 .contacto img{
 	display: block;
 }
@@ -127,4 +134,42 @@ article img{
 .contacto a{
 	color: #fff;
 	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: #fff;
+	padding: 50px 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+div.col1 > input, div.sexo, div.intereses{
+	margin-bottom: 15px;
+}
+
+textarea{
+	margin-bottom: 15px;
 }
