@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +8,43 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header id="header" class="header contenedor"> <!-- header -->
 
-		<figure class="logo"> <!-- logo -->
-			<img src="images/invie.png" alt="Logo Invie">
-		</figure>
+	<section id="portada" class="portada background"> <!-- portada -->
+		<header id="header" class="header contenedor"> <!-- header -->
 
-		<nav class="menu"> <!-- menu -->
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
+			<figure class="logo"> <!-- logo -->
+				<img src="images/invie.png" alt="Logo Invie">
+			</figure>
 
-				<li>
-					<a href="index.html#guitarras">Guitarras</a>
-				</li>
+			<nav class="menu"> <!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
 
-				<li>
-					<a href="precios.html">Precios</a>
-				</li>
-			</ul>	
-		</nav>
+					<li>
+						<a href="index.html#guitarras">Guitarras</a>
+					</li>
 
-	</header>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>	
+			</nav>
 
-	<section id="portada" class="portada"> <!-- portada -->
+		</header>
+
 		<div class="contenedor">			
-			<h1 class="titulo">Guitarras inviesibles</h1> <!-- titulo -->
+			<h1 class="titulo">Guitarras <span>invie</span>sibles</h1> <!-- titulo -->
 			<h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3> <!-- resumen -->
-			<button class="button">Conoce más</button> <!-- boton --> 
+			<a href="#guitarras" class="button">Conoce más</a> <!-- boton --> 
 		</div>
 	</section>
 
 	<section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
 		<h2>Nuestras guitarras</h2> <!-- titulo -->
 
-		<article class="guitarra"> <!-- gitarra 1 -->
+		<article class="guitarra"> <!-- guitarra 1 -->
 			<img src="images/invie-acustica.png" alt="Guitarra Acústica" class="derecha">
 			<div class="contenedor-guitarra-a">
 				<h3  class="title-b">Invie Acústica</h3>
@@ -55,7 +56,7 @@
 			</div>
 		</article>
 
-		<article class="guitarra"> <!-- gitarra 1 -->
+		<article class="guitarra b"> <!-- guitarra 2 -->
 			<img src="images/invie-classic.png" alt="Guitarra Clasica" class="izquierda">
 			<div class="contenedor-guitarra-b">
 				<h3  class="title-b">Invie Classic</h3>
@@ -122,7 +123,7 @@
 
 				<div class="col2">
 					<label for="comentarios">Comentarios</label>
-					<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+					<textarea name="comentarios" id="comentarios" cols="25" rows="7"></textarea>
 					<input type="submit" name="" value="Enviar" class="button">
 				</div>
 			</form>
