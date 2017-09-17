@@ -51,6 +51,8 @@ article img{
 .menu{
 	font-size: 24px;
 	display: inline-block;
+	position: absolute;
+	right: 0;
 }
 
 .menu li{
@@ -95,4 +97,8 @@ article img{
 
 .contenedor-guitarra-b{
 	margin-left: 370px;
+}
+
+.header{
+	position: relative;
 }
