@@ -422,12 +422,13 @@ article img{
 		background: rgba(255, 60, 88, .8);
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -100%;
 		bottom: 0;
 		right: 0;
 		z-index: 2;
 		display: flex;
 		align-items: center;
+		width: 100%;
 	}
 
 	.menu ul{
