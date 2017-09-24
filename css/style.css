@@ -313,3 +313,32 @@ article img{
 		padding: 0;
 	}
 }
+
+@media screen and (max-width: 500px){
+	.menu li{
+		display: block;
+		margin: 0;
+		padding: 8px 0px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.menu li:before{
+		display: none;
+	}
+
+	.menu li:first-child{
+		border-top: 1px solid #fff;
+	}
+
+	.portada{
+		text-align: center;
+	}
+
+	.titulo{
+		font-size: 30px;
+	}
+
+	.title-a{
+		font-size: 16px;
+	}
+}
