@@ -288,6 +288,10 @@ article img{
 		position: static;
 		margin: 0;
 	}
+
+	.contenedor-guitarra-a{
+		padding: 0;
+	}
 	/*Fin Guitarras*/
 }
 
@@ -339,6 +343,15 @@ article img{
 	}
 
 	.title-a{
-		font-size: 16px;
+		font-size: 14px;
+	}
+
+
+	.guitarra img{
+		width: 200px;
+	}
+
+	.title-b{
+		font-size: 30px;
 	}
 }
