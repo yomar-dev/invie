@@ -6,6 +6,7 @@
 	<title>Invie - Guitarras Invisibles</title>
 	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 
@@ -16,9 +17,9 @@
 				<img src="images/invie.png" alt="Logo Invie">
 			</figure>
 			
-			<span class="burguer-button icon-menu"></span>
+			<span class="burguer-button icon-menu" id="burguer-button"></span>
 
-			<nav class="menu"> <!-- menu -->
+			<nav class="menu" id="menu"> <!-- menu -->
 				<ul>
 					<li>
 						<a href="index.html">Home</a>
@@ -132,5 +133,14 @@
 		</div>
 	</footer>
 
+
+	<script>
+		var $burguerButton = document.getElementById('burguer-button');
+		var $menu = document.getElementById('menu');
+
+		$burguerButton.addEventListener('touchstart', function(){
+			$menu.classList.toggle('active');
+		})
+	</script>
 </body>
 </html>
