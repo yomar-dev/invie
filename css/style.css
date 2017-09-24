@@ -260,4 +260,33 @@ article img{
 		margin-bottom: 30px;
 	}
 	/*Fin Portada*/
+
+
+	/*Guitarras*/
+	.guitarras{
+		text-align: center;
+	}
+
+	.izquierda, .derecha{
+		float: none;
+		position: static;
+	}
+
+	.title-b{
+		margin: 0;
+	}
+
+	.guitarra li{
+		list-style: none;
+	}
+
+	.guitarra.b{
+		height: auto;
+	}
+
+	.contenedor-guitarra-b{
+		position: static;
+		margin: 0;
+	}
+	/*Fin Guitarras*/
 }
