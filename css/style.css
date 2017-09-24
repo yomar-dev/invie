@@ -295,6 +295,46 @@ article img{
 	/*Fin Guitarras*/
 }
 
+@media screen and (max-width: 767px){
+	.footer .contenedor{
+		display: block;
+	}
+
+	.contacto{
+		margin: 0 auto;
+	}
+
+	.formulario{
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	.col1{
+		margin: 0;
+	}
+
+	.intereses label{
+		display: block;
+		font-size: 18px;
+	}
+
+	input[type="text"],
+	input[type="email"]{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	input[type="radio"],
+	input[type="checkbox"]{
+		zoom: 1.5;
+	}
+
+	textarea{
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 650px){
 	.header{
 		text-align: center;		
