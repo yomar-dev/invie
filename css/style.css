@@ -282,7 +282,7 @@ article img{
 
 .burguer-button{
 	cursor: pointer;
-	display: inline-block;
+	display: none;
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
@@ -417,6 +417,10 @@ article img{
 @media screen and (max-width: 500px){
 	.portada .contenedor{
 		position: static;
+	}
+
+	.burguer-button{
+		display: inline-block;
 	}
 
 	.menu{
