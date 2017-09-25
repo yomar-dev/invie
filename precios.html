@@ -6,6 +6,7 @@
 	<title>Precios - Guitarras Invisibles</title>
 	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 	<header id="header" class="header background"> <!-- header -->
@@ -16,7 +17,9 @@
 				<img src="images/invie.png" alt="Logo Invie">
 			</figure>
 
-			<nav class="menu"> <!-- menu -->
+			<span class="burguer-button icon-menu" id="burguer-button"></span>
+
+			<nav class="menu" id="menu"> <!-- menu -->
 				<ul>
 					<li>
 						<a href="index.html">Home</a>
@@ -50,19 +53,19 @@
 					<tr>
 						<td>Invie Classic</td>
 						<td>$150.000</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi.</td>
 					</tr>
 
 					<tr>
 						<td>Invie Classic</td>
 						<td>$150.000</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi.</td>
 					</tr>
 					
 					<tr>
 						<td>Invie Classic</td>
 						<td>$150.000</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi. Nunc pulvinar, est et aliquet vulputate, massa nulla consequat tortor, id vehicula mauris velit nec quam. Ut ut nulla sodales, maximus metus a, sollicitudin ipsum.</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et nisi nisi.</td>
 					</tr>
 				</tbody>
 			</table>
@@ -129,6 +132,22 @@
 			</form>
 		</div>
 	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+
+	<script>
+		var $burguerButton = document.getElementById('burguer-button');
+		var $menu = document.getElementById('menu');
+
+		$burguerButton.addEventListener('touchstart', function(){
+			$menu.classList.toggle('active');
+			$burguerButton.classList.toggle('icon-close');
+		})
+
+		var bLazy = new Blazy({
+			selector: 'img'
+		});
+	</script>
 
 </body>
 </html>

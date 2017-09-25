@@ -281,6 +281,7 @@ article img{
 }
 
 .burguer-button{
+	color: #fff;
 	cursor: pointer;
 	display: none;
 	height: 40px;
@@ -296,6 +297,15 @@ article img{
 }
 
 @media screen and (max-width: 800px){
+	
+	.tabla{
+		margin: 50px 10px;
+	}
+
+	.tabla .contenedor{
+		overflow: auto;
+		border: 1px solid #273b47;
+	}
 
 	/*Modificando Portada*/
 	.titulo{
@@ -416,6 +426,10 @@ article img{
 
 @media screen and (max-width: 500px){
 	.portada .contenedor{
+		position: static;
+	}
+
+	.header, .header .contenedor{
 		position: static;
 	}
 
