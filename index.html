@@ -48,7 +48,7 @@
 		<h2>Nuestras guitarras</h2> <!-- titulo -->
 
 		<article class="guitarra"> <!-- guitarra 1 -->
-			<img src="images/invie-acustica.png" alt="Guitarra Acústica" class="derecha">
+			<img data-src="images/invie-acustica.png" alt="Guitarra Acústica" class="derecha">
 			<div class="contenedor-guitarra-a">
 				<h3  class="title-b">Invie Acústica</h3>
 			    <ol>
@@ -60,7 +60,7 @@
 		</article>
 
 		<article class="guitarra b"> <!-- guitarra 2 -->
-			<img src="images/invie-classic.png" alt="Guitarra Clasica" class="izquierda">
+			<img data-src="images/invie-classic.png" alt="Guitarra Clasica" class="izquierda">
 			<div class="contenedor-guitarra-b">
 				<h3  class="title-b">Invie Classic</h3>
 			    <ol>
@@ -75,7 +75,7 @@
 	<footer class="footer">
 		<div class="contenedor">
 			<div class="contacto">
-				<img src="images/invie-white.png" alt="Logo Invie">
+				<img data-src="images/invie-white.png" alt="Logo Invie">
 				<a href="tel:+573210987654">
 					<strong>Teléfono</strong>
 					<span>3210987654</span>
@@ -133,6 +133,7 @@
 		</div>
 	</footer>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
 
 	<script>
 		var $burguerButton = document.getElementById('burguer-button');
@@ -142,6 +143,10 @@
 			$menu.classList.toggle('active');
 			$burguerButton.classList.toggle('icon-close');
 		})
+
+		var bLazy = new Blazy({
+			selector: 'img'
+		});
 	</script>
 </body>
 </html>
